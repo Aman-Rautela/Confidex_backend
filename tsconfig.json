@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    /* File Layout */
+    "rootDir": "./src",              // Where TS files live
+    "outDir": "./dist",              // Where compiled JS will go
+
+    /* Environment Settings */
+    "module": "commonjs",               // Use modern import/export
+    "target": "ES2020",               // Output modern JS
+    "moduleResolution": "node",       // Resolve like Node.js
+    "lib": ["ESNext"],                 // Use latest JS features
+    "types": ["node"],                 // Type definitions for Node
+    "esModuleInterop": true,           // Fix default import issues
+    "allowSyntheticDefaultImports": true,
+
+    /* Outputs */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Stricter Typechecking */
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "strict": true,
+
+    /* Style Options */
+    // Uncomment if you want extra checks:
+    // "noImplicitReturns": true,
+    // "noImplicitOverride": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true,
+
+    /* Other */
+    "verbatimModuleSyntax": false,     // ✅ Allows "import express from 'express'"
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],                  // Include all TS files in src/
+  "exclude": ["node_modules"]          // Ignore node_modules
+}
