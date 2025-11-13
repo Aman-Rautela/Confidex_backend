@@ -480,3 +480,14 @@
 [5pmte - 2025-09-05 pmn5 Ti6e - 14:09:23] INFO: ICE candidate sent from P3lLKUmOkIjxu1NvAAAh to 93XS_M-LZkj7aB8-AAAj
 [5pmte - 2025-09-05 pmn5 Ti6e - 14:09:46] INFO: ICE candidate sent from 93XS_M-LZkj7aB8-AAAj to P3lLKUmOkIjxu1NvAAAh
 [5pmte - 2025-09-05 pmn5 Ti7e - 14:09:76] INFO: User Disconnected P3lLKUmOkIjxu1NvAAAh
+[5pmte - 2025-09-05 pmn5 Ti19e - 14:09:10] INFO: User Disconnected 93XS_M-LZkj7aB8-AAAj
+[13amte - 2025-11-13 amn4 Ti52e - 10:11:09] INFO: User Connected: WFTHYrhppXc6ywRFAAAB (User ID: 2)
+[13amte - 2025-11-13 amn4 Ti53e - 10:11:38] INFO: User Connected: qP4dKLLXNgPaXtNWAAAD (User ID: 2)
+[13amte - 2025-11-13 amn4 Ti53e - 10:11:09] INFO: User Disconnected qP4dKLLXNgPaXtNWAAAD
+[13amte - 2025-11-13 amn4 Ti53e - 10:11:19] INFO: User 2 joined room 78855108-5de9-4bb7-8d62-ac9467b64a5d
+[13amte - 2025-11-13 amn4 Ti53e - 10:11:84] INFO: User WFTHYrhppXc6ywRFAAAB started screen sharing in room 78855108-5de9-4bb7-8d62-ac9467b64a5d
+[13amte - 2025-11-13 amn4 Ti53e - 10:11:22] INFO: User WFTHYrhppXc6ywRFAAAB stopped screen sharing in room 78855108-5de9-4bb7-8d62-ac9467b64a5d
+[13amte - 2025-11-13 amn4 Ti54e - 10:11:46] INFO: User Disconnected WFTHYrhppXc6ywRFAAAB
+[13amte - 2025-11-13 amn4 Ti55e - 10:11:59] INFO: User Connected: DIl7cifewsia-nhOAAAF (User ID: 2)
+[13amte - 2025-11-13 amn4 Ti55e - 10:11:91] INFO: User 2 joined room 78855108-5de9-4bb7-8d62-ac9467b64a5d
+[13amte - 2025-11-13 amn4 Ti55e - 10:11:64] INFO: User Disconnected DIl7cifewsia-nhOAAAF

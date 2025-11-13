@@ -1,26 +1,45 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "WebRTC Signaling Server with Authentication",
+  "main": "src/server.ts",
   "scripts": {
-    "dev": "ts-node src/server.ts"
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "webrtc",
+    "signaling",
+    "socket.io"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.8",
+    "pg": "^8.11.3",
     "socket.io": "^4.8.1",
+    "uuid": "^9.0.1",
     "winston": "^3.17.0"
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
     "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/ms": "^2.1.0",
     "@types/node": "^24.2.0",
+    "@types/nodemailer": "^6.4.14",
+    "@types/pg": "^8.10.9",
     "@types/socket.io": "^3.0.1",
+    "@types/uuid": "^9.0.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   }
